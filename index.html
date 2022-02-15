@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CNN News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .col {
+        width: 33.33%;
+        float: left;
+    }
+    /* .start,
+    .end {
+        outline: 1px dashed black;
+    } */
+    .content .title {
+        padding: 0;
+        margin: 0;
+        padding: 10px 0 10px 16px;
+        background-color: #f2f2f2;
+        color: #404040;
+        font-weight: 800;
+        position: relative;
+    }
+    .heading-icon {
+        padding: 10px 18px;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, .1);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .start i,
+    .end i {
+        cursor: pointer;
+    }
+    .start img,
+    .end img {
+        width: 100%;
+        height: auto;
+    }
+    .start ul,
+    .end ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .start ul li,
+    .end ul li {
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        line-height: 35px;
+    }
+    .start ul li,
+    .end ul li:hover {
+        color: palevioletred;
+        cursor: pointer;
+    }
+    .middle {
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+    .middle .summary {
+        float: left;
+        width: 45%;
+        margin-left: 11px;
+        margin-bottom: 16px;
+    }
+    .summary:hover {
+        color: palevioletred;
+        cursor: pointer;
+    }
+    .middle .summary img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="col start">
+            <div class="content">
+                <h3 class="title">This is the most popular news</h3>
+                <img src="https://via.placeholder.com/640x320">
+                <h2> This is level two title</h2>
+                <ul>
+                    <li>Banksy's nativity scene includes 'mortar fire' damage</li>
+                    <li>Fog and ice cause 69-vehicle pile up</li>
+                    <li>Rihanna teases fans about her latest album with a dog bobbing its head</li>
+                    <li>Why Uzbekistan is said to be a top travel destination for 2020</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col middle">
+            <div class="content">
+                <h3 class="title">Check This Out</h3>
+                <div class="summary">
+                    <img src="https://via.placeholder.com/320x320">
+                    <div class="description">
+                        Confessions of a VIP private jet flight attendant
+                    </div>
+                </div>
+                <div class="summary">
+                    <img src="https://via.placeholder.com/320x320">
+                    <div class="description">
+                        The dark, ruined city that became the home of Christams
+                    </div>
+                </div>
+                <div class="summary">
+                    <img src="https://via.placeholder.com/320x320">
+                    <div class="description">
+                        Watch two Carnival cruise ships collide
+                    </div>
+                </div>
+                <div class="summary">
+                    <img src="https://via.placeholder.com/320x320">
+                    <div class="description">
+                        The Queen and Prince George bake festive treats
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col end">
+            <div class="content">
+                <h3 class="title">
+                    CNN Business
+                    <span class="heading-icon">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                </h3>
+                <img src="https://via.placeholder.com/640x320">
+                <h2> Eight-year-old tops YouTube list of high earners with $26 million</h2>
+                <ul>
+                    <li>Fake and dangerous kids products are turning up for sale on Amazon</li>
+                    <li>Want Motorola's new foldable Razr? You'll haveto wait</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
